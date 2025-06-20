@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Человек-паук - ваш дружелюбный сосед</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1>Человек-паук</h1>
+        <p>Ваш дружелюбный сосед из Нью-Йорка</p>
+    </div>
+</header>
+
+<nav class="nav">
+    <div class="container">
+        <ul class="nav-list">
+            <li><a href="#about">О персонаже</a></li>
+            <li><a href="#abilities">Способности</a></li>
+            <li><a href="#enemies">Враги</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="main">
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>О Человеке-пауке</h2>
+            <article class="article">
+                <img src="spiderMan.jpg" alt="Человек-паук" class="spider-img">
+                <p>Человек-паук (англ. Spider-Man), настоящее имя Питер Бенджамин Паркер — супергерой, появляющийся в комиксах издательства Marvel Comics, созданный Стэном Ли и Стивом Дитко. С момента своего первого появления на страницах комикса Amazing Fantasy №15 (рус. Удивительная фантазия, август 1962) он стал одним из самых популярных супергероев.</p>
+                <p>Питер Паркер — сирота, воспитанный дядей Беном и тётей Мэй. Обычный студент, получивший сверхчеловеческие способности после укуса радиоактивного паука. Он использует свои силы для борьбы с преступностью, руководствуясь принципом: «С великой силой приходит великая ответственность».</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="abilities" class="section abilities">
+        <div class="container">
+            <h2>Способности и умения</h2>
+            <ul class="abilities-list">
+                <li>Сверхчеловеческая сила, скорость, ловкость и выносливость</li>
+                <li>Способность прилипать к стенам и другим поверхностям</li>
+                <li>"Паучье чутье" - предупреждает об опасности</li>
+                <li>Умение создавать паутину (с помощью специальных устройств)</li>
+                <li>Высокий интеллект и изобретательность</li>
+                <li>Опытный боец, разработавший уникальный стиль борьбы</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="enemies" class="section enemies">
+        <div class="container">
+            <h2>Главные враги</h2>
+            <div class="enemies-grid">
+                <article class="enemy-card">
+                    <h3>Зелёный гоблин</h3>
+                    <p>Норман Озборн, промышленник, использующий химические препараты для усиления своих способностей.</p>
+                </article>
+                <article class="enemy-card">
+                    <h3>Доктор Осьминог</h3>
+                    <p>Отто Октавиус, гениальный учёный с механическими щупальцами, прикреплёнными к его телу.</p>
+                </article>
+                <article class="enemy-card">
+                    <h3>Веном</h3>
+                    <p>Инопланетный симбиот, который когда-то был костюмом Человека-паука.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section fun-fact">
+        <div class="container">
+            <h2>Интересный факт</h2>
+            <button id="fact-btn" class="fact-btn">Показать случайный факт</button>
+            <p id="fact-text" class="fact-text"></p>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2025 Человек-паук. Все права защищены.</p>
+        <p>Официальный сайт Marvel: <a href="https://www.marvel.com" target="_blank">www.marvel.com</a></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
